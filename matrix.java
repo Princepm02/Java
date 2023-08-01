@@ -1,8 +1,15 @@
-//Here we are taking input for 2 matrix values and performing operation (+,-,*,/) lower triangle of the matrix
 /*
- 1 2 3 
- 4 5 6  then we are performing operation for 1,4,5,7,8,9
- 7 8 9 
+The program first takes the input for 2 matrix from user and performing operation (+,-,*,/) according to user
+Then, the program asks the user to select an option from the following:
+ 1.Lower Left Triangle (LLT)
+ 2. Lower Right Triangle (LRT)
+ 3.Upper Left Triangle (ULT)
+ 4. Upper Right Triangle (URT)
+
+ for eg:
+ 1 2 3                         1
+ 4 5 6  then we are printing   4 5    it is Lower Left Triangle (LLT)
+ 7 8 9                         7 8 9
  */
 
 import java.util.*;
