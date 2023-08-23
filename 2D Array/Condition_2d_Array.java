@@ -1,7 +1,14 @@
-/* This Java program takes user input to create a 2D matrix, where the user specifies the number of rows and columns. 
-It then prompts the user to enter matrix values and stores them in the 2D array 'a'. 
-The program also checks for zero values in the matrix and asks the user to re-enter non-zero values if zeros are detected. 
-Finally, it prints the updated matrix after all the modifications.*/
+/*
+- User input is used to create a 2D matrix.
+- The user specifies the number of rows and columns for the matrix.
+- Matrix values are entered by the user and stored in the 2D array called 'a'.
+- The program scans the matrix to identify zero values.
+- If zero values are found in the matrix:
+    - The program prompts the user to re-enter non-zero values for those positions.
+    - This step ensures that the matrix doesn't contain any zero values.
+- After all modifications are complete:
+    - The program prints the updated matrix, reflecting the changes made.
+*/
 
 import java.util.*;
 
