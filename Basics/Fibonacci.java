@@ -10,7 +10,8 @@ public class Fibbo {
         int n = sc.nextInt();
         System.out.println("Fibbonacci series");
         System.out.print(a + " " + b);
-        for (int i = 0; i < n - 2; i++) {
+        for (int i = 0; i < n - 2; i++) 
+        {
             c = a + b;
             System.out.print(" " + c);
             a = b;
