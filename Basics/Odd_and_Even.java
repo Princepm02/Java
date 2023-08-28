@@ -1,59 +1,66 @@
+// This Java program takes an integer 'num' as input and prints the first 'num' even and odd numbers.
+
 import java.util.*;
 
-public class Odd_and_Even {
+public class Odd_and_Even 
+{
     public static void main(String[] args) 
     {
         Scanner sc = new Scanner(System.in);
-        int count,i;
+        int count, i;
+        
+        // Taking user input for the number of even and odd numbers to generate
         System.out.println("Enter the number for N odd & N Even number : ");
-        int num=sc.nextInt();
+        int num = sc.nextInt();
 
-        System.out.println("Even Number : ");
-        for(i=0;i<num*2;i++)
+        // Generating and printing even numbers
+        System.out.println(num +" Even Number : ");
+        for (i = 0; i < num * 2; i++) 
         {
-            if(i%2==0)
+            if (i % 2 == 0) 
             {
-            System.out.print(i+" ");
+                System.out.print(i + " ");
             }
         }
 
-        System.out.println("\nOdd Number : ");
-        for(i=0;i<num*2;i++)
+        // Generating and printing odd numbers
+        System.out.println("\n\n"+num+" Odd Number : ");
+        for (i = 0; i < num * 2; i++) 
         {
-            if(i%2==1)
+            if (i % 2 == 1) 
             {
-            System.out.print(i+" ");
+                System.out.print(i + " ");
             }
         }
 
-        /*System.out.println("Even Number : ");
-        count=0;
-        i=0;
-        while(count<num)
+        /* Alternate Logic using While Loop:
+
+        // Generating and printing even numbers using a while loop
+        System.out.println(num +" Even Number : ");
+        count = 0;
+        i = 0;
+        while (count < num) 
         {
-            if(i%2==0)
+            if (i % 2 == 0) 
             {
                 count++;
-                System.out.print(i+" ");
-                i++;
+                System.out.print(i + " ");
             }
-            else 
-                i++;
+            i++;
         }
 
-        System.out.println("\nOdd Number : ");
-        count=0;
-        i=0;
-        while(count<num)
+        // Generating and printing odd numbers using a while loop
+        System.out.println("\n\n"+num+" Odd Number : ");
+        count = 0;
+        i = 0;
+        while (count < num) 
         {
-            if(i%2==1)
+            if (i % 2 == 1) 
             {
                 count++;
-                System.out.print(i+" ");
-                i++;
+                System.out.print(i + " ");
             }
-            else 
-                i++;
+            i++;
         }*/
     }
 }
