@@ -1,4 +1,4 @@
-# Java 2D Matrix Input and Modification
+# 2D Matrix Input and Modification
 
 This Java program allows users to create a 2D matrix, enter its values, and ensure that no zero values exist within the matrix. If zero values are detected, the program prompts the user to re-enter non-zero values for those positions. The final updated matrix is then printed.
 
