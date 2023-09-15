@@ -1,6 +1,6 @@
-# Days-in-String Java Program
+#  Calculates the Day of the Week
 
-This is a simple Java program called `days_in_String` that calculates the day of the week after a specified number of days, given the starting day.
+This Java program calculates the day of the week that will occur after a specified number of days, given a starting day of the week. The program takes the user's input for the starting day and the number of days, and then it computes and displays the resulting day of the week.
 
 ## Overview
 
@@ -28,9 +28,11 @@ It then calculates and prints the day of the week that will fall after the speci
    java days_in_String
    ```
 
-6. Follow the prompts to enter today's day and the number of days.
+6. Follow the on-screen instructions to input the following details:
+   - Today's Day: Enter the current day of the week (e.g., MON, TUE, WED, THUR, FRI, SAT, SUN).
+   - Number of Days: Enter the number of days you want to calculate.
 
-7. The program will display the day of the week after the specified number of days.
+7. The program will calculate and display the day of the week that will occur after the specified number of days.
 
 ## Example
 
@@ -52,5 +54,7 @@ After 5 days, the day is SAT
 - The program doesn't account for leap years or other calendar complexities.
 
 Feel free to modify and use this program according to your needs. If you encounter any issues or have suggestions for improvement, please create an issue or a pull request in the repository.
+
+---
 
 **Disclaimer:** This program is meant for educational and illustrative purposes. It may not account for all possible scenarios and edge cases related to date calculations.
